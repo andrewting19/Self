@@ -169,6 +169,12 @@ header {
   font-size: 1em;
   padding: 1%;
 }
+#hook2 {
+  position: relative;
+  left: 0;
+  font-size: 1em;
+  padding: 1%;
+}
 
 #hobbies {
   position: absolute;
