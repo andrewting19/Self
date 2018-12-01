@@ -1,0 +1,258 @@
+html {
+  background-color: #f0ffff;
+  font-family: "Quicksand";
+}
+
+div {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #e6e6fa;
+  padding: 0.5em;
+  left: -5px;
+
+
+}
+
+#centered h1 {
+  color: #9400d3;
+  text-align: center;
+}
+
+h1, h2 {
+  color: #9400d3;
+  text-align: left;
+}
+
+.rainbow {
+  background: linear-gradient(to right, red, orange , yellow, green, cyan, blue, violet);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 5em;
+    text-align: center;
+}
+
+.smallRainbow {
+  background: linear-gradient(to right, red, orange , yellow, green, cyan, blue, violet);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1em;
+}
+
+.mediumRainbow {
+  background: linear-gradient(to right, red, orange , yellow, green, cyan, blue, violet);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3em;
+}
+
+.purple {
+  color: #9400d3;
+}
+
+.blue {
+  color: RGB(50,0,240);
+}
+.red {
+  color: red;
+}
+.transparent {
+  color: #e6e6fa
+}
+
+.Quicksand {
+  font-family: "Quicksand";
+}
+
+header {
+  color: #9400d3;
+  font-size: 3em;
+  padding-top: 1%;
+  padding-bottom: 2%;
+  text-align: center;
+}
+
+#header img {
+  float: right;
+  padding-right: 50px;
+}
+
+#menu i {
+  text-align: center;
+  padding: 1%;
+  margin-right: 2%;
+  display: inline-block;
+  background-color: #9400d3;
+  color: #e6e6fa;
+}
+
+#menu a i, #menu i {
+  border-radius: 50%;
+}
+
+#profile {
+  display: block;
+  border-radius: 50%;
+  position: absolute;
+  margin-top: 5%;
+}
+
+#profile_text {
+  position: absolute;
+  left: 30px;
+  margin-top: 40px;
+}
+#profile_text2 {
+  position: absolute;
+  left: 56.5px;
+  margin-top: -2%;
+  font-size: .75em;
+}
+#profile_text3 {
+  position: absolute;
+  margin-top: -2%;
+  font-size: .75em;
+  left: 830px;
+}
+#profile_text_Trass {
+  position: absolute;
+  margin-top: -2%;
+  font-size: .75em;
+  left: 1155px;
+}
+#profile_text_handwire {
+  position: absolute;
+  margin-top: -2%;
+  font-size: .75em;
+  left: 1178px;
+}
+#profile_text4 {
+  position: absolute;
+  margin-top: -2%;
+  padding-left: 2%;
+}
+#profile_text5 {
+  position: absolute;
+  margin-top: -2%;
+  left:0;
+  padding-left: 2%;
+}
+#portfolio_text {
+  position: absolute;
+  left: 140px;
+  margin-top: -2%;
+  font-size: .75em;
+}
+#portfolio_text2 {
+  position: absolute;
+  left: 1137px;
+  margin-top: -2%;
+  font-size: .75em;
+}
+#portfolio_desc {
+  position: relative;
+  bottom: 285px;
+  margin-right: 2%;
+}
+#portfolio_desc2 {
+  position: relative;
+  bottom: 285px;
+  margin-right: 1%;
+}
+#neri_pics {
+  position: relative;
+  height: 300px;
+}
+
+#hook {
+  position: relative;
+  left: 350px;
+  font-size: 1em;
+  padding: 1%;
+}
+
+#hobbies {
+  position: absolute;
+  left: 500px;
+  top: 0;
+  font-size: 1em;
+  padding: 1%;
+}
+
+#lilacmilk {
+  height: 300px;
+}
+#artisanPics {
+  position: relative;
+  height: 300px;
+}
+#artisanPicsSP {
+  position: relative;
+  height: 600px;
+}
+#portfolioPics {
+  position: relative;
+  height: 500px;
+}
+#mangaPics {
+  position: relative;
+  height: 600px;
+}
+#realPhotos {
+  position: relative;
+  height: 600px;
+}
+#keybored {
+  position: relative;
+  height: 300px;
+}
+#keebs {
+  position: relative;
+  width: 1390px;
+}
+#keyboard_desc {
+  position: relative;
+  bottom: 285px;
+}
+#keyboard_desc2 {
+  position: absolute;
+  left: 0;
+}
+#keyboard_desc3 {
+  position: absolute;
+  left: 0;
+  margin-top: 0;
+}
+
+#feedback {
+  color: black;
+  width: 100%;
+  padding: .1em;
+  text-align: center;
+}
+
+#show_rules_button, #show_stats_button, #throw_choice_button, #reset, #enter_name_button, #name, select {
+  position: relative;
+  font-family: "Quicksand";
+  left: -5px;
+  background-color: #ffe4e1;
+  color: #9400d3;
+  padding: 10px 25px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  cursor: pointer;
+}
+
+.right { text-align: right;}
+.left {text-align: left;}
+.center {text-align: center;}
+
+.hidden{
+  display: none;
+}
+
+.visible{
+  display:block;
+}
