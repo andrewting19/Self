@@ -4,13 +4,15 @@ html {
 }
 
 div {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 1em;
+  margin-bottom: 1em;
   background-color: #e6e6fa;
   padding: 0.5em;
-  left: -5px;
+  left: -.5em;
+}
 
-
+.full_screen {
+  width: 88em;
 }
 
 #centered h1 {
@@ -71,11 +73,6 @@ header {
   text-align: center;
 }
 
-#header img {
-  float: right;
-  padding-right: 50px;
-}
-
 #menu i {
   text-align: center;
   padding: 1%;
@@ -98,32 +95,32 @@ header {
 
 #profile_text {
   position: absolute;
-  left: 30px;
-  margin-top: 40px;
+  left: 1em;
+  margin-top: 2em;
 }
 #profile_text2 {
   position: absolute;
-  left: 56.5px;
-  margin-top: -2%;
+  left: 5em;
+  margin-top: -2em;
   font-size: .75em;
 }
 #profile_text3 {
   position: absolute;
-  margin-top: -2%;
+  margin-top: -2em;
   font-size: .75em;
-  left: 830px;
+  left: 70em;
 }
 #profile_text_Trass {
   position: absolute;
-  margin-top: -2%;
+  margin-top: -2em;
   font-size: .75em;
-  left: 1155px;
+  left: 96.5em;
 }
 #profile_text_handwire {
   position: absolute;
   margin-top: -2%;
-  font-size: .75em;
-  left: 1178px;
+  font-size: .78em;
+  left: 95em;
 }
 #profile_text4 {
   position: absolute;
@@ -138,36 +135,32 @@ header {
 }
 #portfolio_text {
   position: absolute;
-  left: 140px;
+  left: 12em;
   margin-top: -2%;
   font-size: .75em;
 }
 #portfolio_text2 {
   position: absolute;
-  left: 1137px;
+  left: 94.5em;
   margin-top: -2%;
   font-size: .75em;
 }
 #portfolio_desc {
   position: relative;
-  bottom: 285px;
+  bottom: 18em;
   margin-right: 2%;
 }
 #portfolio_desc2 {
   position: relative;
-  bottom: 285px;
+  bottom: 18em;
   margin-right: 1%;
-}
-#neri_pics {
-  position: relative;
-  height: 300px;
 }
 
 #hook {
   position: relative;
-  left: 350px;
+  left: 24em;
   font-size: 1em;
-  padding: 1%;
+
 }
 #hook2 {
   position: relative;
@@ -176,48 +169,44 @@ header {
   padding: 1%;
 }
 
-#hobbies {
-  position: absolute;
-  left: 500px;
-  top: 0;
-  font-size: 1em;
-  padding: 1%;
-}
-
 #lilacmilk {
-  height: 300px;
+  height: 19em;
 }
 #artisanPics {
   position: relative;
-  height: 300px;
+  height: 19em;
 }
 #artisanPicsSP {
   position: relative;
-  height: 600px;
+  height: 13em;
 }
 #portfolioPics {
   position: relative;
-  height: 500px;
+  height: 30em;
+}
+#neri_pics {
+  position: relative;
+  height: 19.35em;
 }
 #mangaPics {
   position: relative;
-  height: 600px;
+  height: 40em;
 }
 #realPhotos {
   position: relative;
-  height: 600px;
+  height: 38em;
 }
 #keybored {
   position: relative;
-  height: 300px;
+  height: 19em;
 }
 #keebs {
   position: relative;
-  width: 1390px;
+  width: 87.5em;
 }
 #keyboard_desc {
   position: relative;
-  bottom: 285px;
+  bottom: 18em;
 }
 #keyboard_desc2 {
   position: absolute;
@@ -227,28 +216,6 @@ header {
   position: absolute;
   left: 0;
   margin-top: 0;
-}
-
-#feedback {
-  color: black;
-  width: 100%;
-  padding: .1em;
-  text-align: center;
-}
-
-#show_rules_button, #show_stats_button, #throw_choice_button, #reset, #enter_name_button, #name, select {
-  position: relative;
-  font-family: "Quicksand";
-  left: -5px;
-  background-color: #ffe4e1;
-  color: #9400d3;
-  padding: 10px 25px;
-  text-align: center;
-  display: inline-block;
-  font-size: 16px;
-  margin-top: 4px;
-  margin-bottom: 4px;
-  cursor: pointer;
 }
 
 .right { text-align: right;}
