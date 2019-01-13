@@ -11,14 +11,14 @@ div {
 }
 
 .full_screen {
-  width: 88em;
+  width: 100%;
 }
 .divInContainer{
-  width: 88em;
+  width: 100%;
   text-align: center;
 }
 .footer {
-  width: 88em;
+  width: 100%;
   text-align: center;
   margin: 0 auto;
 }
@@ -229,7 +229,7 @@ header {
 }
 #keebs {
   position: relative;
-  width: 87.5em;
+  width: 98%;
 }
 #keyboard_desc {
   position: relative;
