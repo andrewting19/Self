@@ -24,7 +24,7 @@
   <div id="pic1" class="divInContainer">
     <header>
       My Mechanical Keyboard Hobby: The Keyboards
-    </header>
+    </header><br>
     <img id="keybored" src="https://i.imgur.com/INDRVIt.jpg"/>
     <container id="keyboard_desc" style="margin-left: 1%; margin-right:1%;"> <span class="purple">What are mechanical keyboards?</span>
       <p id=keyboard_desc2> Normal 'membrane' keyboards have a sheet of rubber domes under the keys.
@@ -36,7 +36,7 @@
       </p>
     </container>
     <container id="keyboard_desc" style="margin-left: 1%; margin-right:1%;">
-      controls the feel of the switch.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      controls the feel of the switch.
       <p id=keyboard_desc3>
       Depending on the stem design, the switch can be linear (smooth), tactile (bump), or clicky (click and bump).
       Personally, I prefer tactile switches with around a 67g bottom out force.
@@ -44,17 +44,16 @@
       <br> I currently own 6 mechanical keyboards, 6 custom keycap sets, and around 15 artisans (see Artisans).
       I've also made and sold artisans of my own (see Resin).
 
-      </p>
+    </p>
     </container>
     <container id="pic1">
-      <img id="keybored" src="https://i.imgur.com/ThkQ7Fl.jpg"/>
-    </container>
+      <img id="keybored1" src="https://i.imgur.com/ThkQ7Fl.jpg"/>
 
 
-    <img id="keybored" src="https://i.imgur.com/k7FSnYc.jpg"/>
+    <img id="keybored2" src="https://i.imgur.com/k7FSnYc.jpg"/></container>
 
 
-    <p></p>
+    <p></p><p></p>
     <img id="keebs" src="https://i.imgur.com/mWNfaLp.jpg"/>
   </div>
 
@@ -65,6 +64,24 @@
     <a href=mailto:andrew.ting19@trinityschoolnyc.org>andrew.ting19@trinityschoolnyc.org</a> <br>
     Website made by Andrew Ting</h2>
   </div>
+
+  <script>
+
+  		    $(function() {
+      			var windowWidth = $(window).width();
+            var picScalar = .21;
+
+      			$('body').css('width', windowWidth);
+
+            $('#keebs').css('width', (windowWidth*.98));
+
+            $('#keyboard_desc').css('width', (windowWidth*.18));
+            $('#keybored').css('height', (windowWidth*picScalar));
+            $('#keybored1').css('height', (windowWidth*picScalar));
+            $('#keybored2').css('height', (windowWidth*picScalar));
+
+  			});
+  		</script>
 
 </body>
 
