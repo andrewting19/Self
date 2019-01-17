@@ -26,40 +26,40 @@
 
     <container><h2>A Manga Interpretation of Lu Xun's "Diary of a Madman" (to be read right to left)</h2></container><br><br>
 
-    <img id="mangaPics" src="https://i.imgur.com/Kj2R3F1.jpg"/>
+    <img class="mangaPics" src="https://i.imgur.com/Kj2R3F1.jpg"/>
     <container id="profile_text4">Page 2</container>
 
-    <img id="mangaPics" src="https://i.imgur.com/BmMXaKg.jpg"/>
+    <img class="mangaPics" src="https://i.imgur.com/BmMXaKg.jpg"/>
     <container id="profile_text5">Page 1</container>
 
     <container id="profile_text4">Page 3</container>
-    <img id="mangaPics" src="https://i.imgur.com/q7Di8yP.jpg"/>
+    <img class="mangaPics" src="https://i.imgur.com/q7Di8yP.jpg"/>
 
 
 
     <br><br>  <container><h2>Anime-style Drawings in Pencil and Ink</h2></container>
 
-    <img id="portfolioPics" src="https://i.imgur.com/HXEnrZb.jpg"/>
-    <img id="portfolioPics" src="https://i.imgur.com/HGnmaDE.jpg"/>
-    <img id="portfolioPics" src="https://i.imgur.com/ta4fMn2.jpg"/>
+    <img class="portfolioPics" src="https://i.imgur.com/HXEnrZb.jpg"/>
+    <img class="portfolioPics" src="https://i.imgur.com/HGnmaDE.jpg"/>
+    <img class="portfolioPics" src="https://i.imgur.com/ta4fMn2.jpg"/>
     <br>
-    <img id="portfolioPics" src="https://i.imgur.com/fulFbES.jpg"/>
-    <img id="portfolioPics" src="https://i.imgur.com/g1m8udE.jpg"/>
-    <img id="portfolioPics" src="https://i.imgur.com/jqeOO5g.jpg"/>
+    <img class="portfolioPics" src="https://i.imgur.com/fulFbES.jpg"/>
+    <img class="portfolioPics" src="https://i.imgur.com/g1m8udE.jpg"/>
+    <img class="portfolioPics" src="https://i.imgur.com/jqeOO5g.jpg"/>
     <br>
-    <img id="portfolioPics" src="https://i.imgur.com/yfMX5wk.jpg"/>
+    <img class="portfolioPics" src="https://i.imgur.com/yfMX5wk.jpg"/>
 
 
     <p style="padding: 1%;"></p>
     <container><h2>Photos, Sketches, and Paintings</h2></container>
 
-    <img id="realPhotos" src="https://i.imgur.com/s8nrR4Q.jpg"/>
-    <img id="realPhotos" src="https://i.imgur.com/EVZHtQ7.jpg"/>
-    <img id="portfolioPics" src="https://i.imgur.com/HgMVeS5.jpg"/>
-    <img id="portfolioPics" src="https://i.imgur.com/XdEYeUX.jpg"/>
-    <img id="portfolioPics" src="https://i.imgur.com/b3QPweV.jpg"/>
-    <img id="portfolioPics" src="https://i.imgur.com/TjWzHgW.jpg"/>
-    <img id="portfolioPics" src="https://i.imgur.com/c5Uqeng.jpg"/>
+    <img class="realPhotos" src="https://i.imgur.com/s8nrR4Q.jpg"/>
+    <img class="realPhotos" src="https://i.imgur.com/EVZHtQ7.jpg"/>
+    <img class="portfolioPics" src="https://i.imgur.com/HgMVeS5.jpg"/>
+    <img class="portfolioPics" src="https://i.imgur.com/XdEYeUX.jpg"/>
+    <img class="portfolioPics" src="https://i.imgur.com/b3QPweV.jpg"/>
+    <img class="portfolioPics" src="https://i.imgur.com/TjWzHgW.jpg"/>
+    <img class="portfolioPics" src="https://i.imgur.com/c5Uqeng.jpg"/>
 
   </div>
 
@@ -70,6 +70,24 @@
     <a href=mailto:andrew.ting19@trinityschoolnyc.org>andrew.ting19@trinityschoolnyc.org</a> <br>
     Website made by Andrew Ting</h2>
   </div>
+
+  <script>
+
+          $(function() {
+            var windowWidth = $(window).width();
+            var picScalar = .21;
+
+            $('body').css('width', windowWidth);
+
+            $('#keebs').css('width', (windowWidth*.98));
+
+            $('.portfolioPics').css('height', (windowWidth*.37));
+            $('.mangaPics').css('width', (windowWidth*.32));
+            $('.realPhotos').css('height', (windowWidth*.45));
+            $('#keybored2').css('height', (windowWidth*picScalar));
+
+        });
+      </script>
 
 </body>
 

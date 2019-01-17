@@ -24,7 +24,7 @@
   <div id="artisan1" class="divInContainer">
     <header>
       "I'm an artist. Arrest me."
-    </header>
+    </header><br><br>
 
     <img id="artisanPics" src="https://i.imgur.com/satqvHB.jpg"/>
 
@@ -39,7 +39,7 @@
       </p>
     </container>
 
-    <container id="keyboard_desc">
+    <container id="portfolio_desc2">
       <span class=purple>Okay, those are cool, but how did you make them?</span>
       <p id=keyboard_desc3> <br>
       Well, in short, there are 3 very complicated steps. <br><br>
@@ -58,11 +58,11 @@
 
     <p></p>
 
-    <img id="neri_pics" style="" src="https://i.imgur.com/WPZOJ5g.jpg"/>
+    <img class="neri_pics" style="" src="https://i.imgur.com/WPZOJ5g.jpg"/>
 
-    <img id="neri_pics" style="" src="https://i.imgur.com/DIh8b0n.jpg"/>
+    <img class="neri_pics" style="" src="https://i.imgur.com/DIh8b0n.jpg"/>
 
-    <img id="neri_pics" src="https://i.imgur.com/10xqaPS.jpg"/>
+    <img class="neri_pics" src="https://i.imgur.com/10xqaPS.jpg"/>
   </div>
 
 
@@ -81,13 +81,13 @@
     <header>I also do turtles on the side.</header>
 
 
-    <img id="neri_pics" src="https://i.imgur.com/geKPYi8.jpg"/>
+    <img class="neri_pics" src="https://i.imgur.com/geKPYi8.jpg"/>
 
-    <img id="neri_pics" src="https://i.imgur.com/R0LB4de.jpg"/>
+    <img class="neri_pics" src="https://i.imgur.com/R0LB4de.jpg"/>
 
-    <img id="neri_pics" src="https://i.imgur.com/QwJC22u.jpg"/> <br>
+    <img class="neri_pics" src="https://i.imgur.com/QwJC22u.jpg"/> <br>
 
-    <header><img id="artisanPicsSP" src="https://i.imgur.com/iCA9dCC.jpg"/></header>
+    <img id="artisanPicsSP" src="https://i.imgur.com/iCA9dCC.jpg"/>
   </div>
 
 
@@ -97,6 +97,27 @@
     <a href=mailto:andrew.ting19@trinityschoolnyc.org>andrew.ting19@trinityschoolnyc.org</a> <br>
     Website made by Andrew Ting</h2>
   </div>
+
+  <script>
+
+          $(function() {
+            var windowWidth = $(window).width();
+            var picScalar = .2;
+
+            $('body').css('width', windowWidth);
+
+            $('#keebs').css('width', (windowWidth*.98));
+
+            $('#keyboard_desc').css('width', (windowWidth*.17));
+            $('#portfolio_desc').css('width', (windowWidth*.17));
+            $('#lilacmilk').css('height', (windowWidth*picScalar));
+            $('#artisanPics').css('height', (windowWidth*picScalar));
+            $('.neri_pics').css('height', (windowWidth*.215));
+            $('#artisanPicsSP').css('height', (windowWidth*.45));
+            $('#portfolioPics').css('height', (windowWidth*.35));
+
+        });
+      </script>
 
 </body>
 
